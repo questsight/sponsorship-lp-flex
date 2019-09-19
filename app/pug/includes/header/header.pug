@@ -1,0 +1,43 @@
+header.site__header.header
+  picture
+    source(srcset='assets/images/main.webp' type='image/webp')
+    img.header__picture(src='assets/images/main.png')
+  .header__background-bottom
+  .header__box
+    include ../navigation/navigation.pug
+    .header__header
+      .header__nav
+        include ../hamburger/hamburger.pug
+      .header__link
+        a(href="http://sponsorforum.ru", target="_blank")
+          .header__memo В рамках
+          picture
+            source(srcset='assets/images/main_1.webp' type='image/webp')
+            img.header__img(src='assets/images/main_1.png')
+      .header__link
+        a(href="https://sponsorship.org/", target="_blank")
+          .header__memo Партнер премии
+          picture
+            source(srcset='assets/images/main_2.webp' type='image/webp')
+            img.header__img(src='assets/images/main_2.png')
+      .header__link
+        a(href="https://www.facebook.com/RussianSponsorshipAwards/", target="_blank")
+          .header__facebook Facebook
+      .header__call
+        .header__phone +7 (499) 686 15 96
+        .header__callback.activation-callback Обратный звонок
+    main.header__main
+      .header__main-background
+      .header__content
+        .header__content-top
+          .header__info
+            .header__date 27 ноября 2019
+            div.header__place Конгресс-центр Технополис, 
+              span.header__city Москва
+          picture
+            source(srcset='assets/images/main_3.webp' type='image/webp')
+            img.header__logo(src='assets/images/main_3.png' loading="eager")
+          h1.header__name Профессиональная премия в области спонсорства в России
+        .header__content-bottom
+          a.header__button(href="#" download) Скачать положение о премии
+        

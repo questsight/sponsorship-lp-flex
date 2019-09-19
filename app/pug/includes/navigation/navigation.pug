@@ -1,0 +1,28 @@
+nav#navigation.navigation.hidden
+  picture
+    source(srcset='assets/images/navigation.webp' type='image/webp')
+    img.navigation__img(src='assets/images/navigation.png' loading="lazy")
+  .navigation__box
+    .navigation__column
+      a.navigation__item.scrollto(href='#about')
+        | О премии
+      a.navigation__item.scrollto(href='#winners')
+        | Победители
+      a.navigation__item.scrollto(href='#stages')
+        | Этапы проведения
+      a.navigation__item.scrollto(href='#advantage')
+        | Что даст участие
+      a.navigation__item.scrollto(href='#purpose')
+        | Задачи премии
+      a.navigation__item.scrollto(href='#guest')
+        | Кто приглашен
+    .navigation__column
+      a.navigation__item.scrollto(href='#nominations')
+        | Номинации премии
+      a.navigation__item.scrollto(href='#jury')
+        | Состав жюри
+      a.navigation__item.scrollto(href='#partners')
+        | Партнеры
+      a.navigation__item.scrollto(href='#contacts')
+        | Контакты
+      a.navigation__item(href="#") Политика конфиденциальности

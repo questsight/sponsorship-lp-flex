@@ -1,0 +1,42 @@
+footer.site__footer.footer
+  .footer__box
+    .footer__nav
+      a.scrollto(href='#about') О премии
+      a.scrollto(href='#winners') Победители
+      a.scrollto(href='#stages') Этапы проведения
+      a.scrollto(href='#advantage') Что даст участие
+      a.scrollto(href='#purpose') Задачи премии
+      a.scrollto(href='#guest') Кто приглашен
+    .footer__nav
+      a.scrollto(href='#nominations') Номинации премии
+      a.scrollto(href='#jury') Состав жюри
+      a.scrollto(href='#partners') Партнеры
+      a.scrollto(href='#contacts') Контакты
+      a(href="#") Политика конфиденциальности
+    .footer__facebook
+      a(href="#", target="_blank") Facebook
+    .footer__call
+      a.hidden-lg(href="#", target="_blank") Facebook
+      .footer__phone +7 (499) 686 15 96
+      .footer__callback.activation-callback Обратный звонок
+  
+  .popup.hidden#callback
+    form.form.popup_form
+      .form__close#close-callback
+        .hamburger
+          .hamburger__item.hamburger__item_open
+          .hamburger__item.hamburger__item_open
+      picture
+        source(srcset='assets/images/popup.webp' type='image/webp')
+        img.popup__img(src='assets/images/popup.png' loading="lazy")
+      .form__text Заполните форму, и наш менеджер с Вами свяжется в ближайшее время
+      .form__box
+        input.form__input(type='text', placeholder='Имя Фамилия')
+        br
+        input.form__input(type='text', placeholder='Организация')
+        br
+        input.form__input(type='tel', placeholder='Телефон')
+        br
+        input.form__input(type='email', placeholder='Email')
+        br
+        button.form__button(type='submit') Отправить

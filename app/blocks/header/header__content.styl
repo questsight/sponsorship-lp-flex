@@ -1,0 +1,31 @@
+.header__content
+  margin-left 100px
+  position absolute
+  top 200px
+  bottom 0
+  right 0
+  left 0
+  z-index 2
+  @media only screen and (max-width: lg)
+    margin-left 0
+    font-size sSize
+  @media only screen and (max-width: sm)
+    top 180px
+.header__content-top
+  height calc(33vw - 200px)
+  display flex
+  flex-direction column
+  justify-content flex-end
+  @media only screen and (max-width: md)
+    align-items center
+  @media only screen and (max-width: sm)
+    height auto
+.header__content-bottom
+  height 20vw
+  display flex
+  flex-direction column
+  justify-content center
+  @media only screen and (max-width: md)
+    align-items center
+  @media only screen and (max-width: sm)
+    height auto
