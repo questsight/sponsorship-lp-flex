@@ -1,4 +1,4 @@
-# "Sponsorship": project for Russian Sponsorship Awards 2019
+# "Sponsorship": project for Russian Sponsorship Awards 2019, https://sponsorforum.ru/awards/
 
 ## Installation
 
